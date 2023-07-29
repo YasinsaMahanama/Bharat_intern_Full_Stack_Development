@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 30vw;
+    margin-left: 35vw;
+    border: black 0.5vh solid;
+    border-radius: 2vh;
+    padding: 1vh 1vw;
+    margin-top: 7.5vh;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 1vh 1vw;
+    text-align: center;
+    margin-top: 7vh;
+}
+
+header:hover{
+    cursor: pointer;
+    color: wheat;
+    background-color: #444;
+}
+
+main{
+    padding: 1vh 1vw;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+.index{
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.index:hover{
+    background-color: #564848;
+    color: white;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#post-form{
+    font-weight: 600;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+/* ... Other styles remain unchanged ... */
+
+.preview-image {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.preview-video {
+    max-width: 100%;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
