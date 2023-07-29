@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Project Management Tool</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <h1>Project Management Tool</h1>
+            <div class="task-form">
+              <input type="text" id="taskName" placeholder="Task Name">
+              <input type="text" id="assignee" placeholder="Assignee">
+              <button onclick="addTask()">Add Task</button>
+            </div>
+            <div class="task-list">
+              <h2>Task List</h2>
+              <ul id="tasks"></ul>
+            </div>
+            <div class="communication">
+              <h2>Communication</h2>
+              <div id="messages"></div>
+              <div class="message-form">
+                <input class="msg" type="text" id="messageInput" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+              </div>
+            </div>
+          </div>
+          <script src="script.js"></script>
+
+    </body>
+</html>
