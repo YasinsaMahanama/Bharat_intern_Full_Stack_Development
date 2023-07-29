@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Content Management Tool</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+
+
+    <body>
+        
+        <div>
+            <header>
+                <h1>Content Management tool</h1>
+            </header>
+            <main>
+                <section id="create-post">
+                    <h2>Create Post</h2>
+                    <form id="post-form">
+                        <label for="title">Title :</label>
+                        <input class="index" type="text" id="title" required>
+                        
+                        <label for="content">Content :</label>
+                        <textarea class="index" id="content" required></textarea>
+
+                        <label for="imageInput">Upload Image:</label>
+                        <input class="index" type="file" id="imageInput" accept="image/*">
+
+                        <label for="videoInput">Upload Video:</label>
+                        <input class="index" type="file" id="videoInput" accept="video/*">
+                        
+                        <button type="submit">Create Post</button>
+                    </form>
+                </section>
+                
+                <section id="view-posts">
+                    <h2>View Posts</h2>
+                    <ul id="post-list"></ul>
+                </section>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </body>
+</html>
